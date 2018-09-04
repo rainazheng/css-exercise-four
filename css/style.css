@@ -10,7 +10,7 @@ body {
 /* text settings */
 h1 {
   font-family: serif;
-  font-size:4em;
+  font-size: 4em;
   text-align: center;
 }
 
@@ -32,12 +32,11 @@ div h1 {
   float: left;
   margin: 2% 0;
   width: 100%;
-  height: 30em;
+  height: 40em;
   display: block;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 2px solid blue;
 }
 
 .baku {
@@ -56,9 +55,18 @@ div h1 {
   background-image: url("/images/rome.jpg");
 }
 
-/*@media screen and (min-width: 575px) {
+@media screen and (min-width: 575px) {
   .preview {
     margin: 1%;
     width: 48%;
+    height: 30em;
   }
-}*/
+}
+
+@media screen and (min-width: 991px) {
+  .preview {
+    margin: 1%;
+    width: 23%;
+    height: 30em;
+  }
+}
